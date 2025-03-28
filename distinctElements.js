@@ -7,6 +7,6 @@ const result = arr.reduce((acc, cur) =>
         : { ...acc, [cur]: 1 } // If `cur` is not in `acc`, initialize it to 1
 , {});
 
-console.log(result);
+console.log(result); ``
 
 
